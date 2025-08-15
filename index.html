@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VideYO - AI Video Editor & Creator | Background Swap, AI Gen, Combine Clips</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="VideYO is an AI-powered video editing and creation suite. Easily swap video backgrounds, generate new video content with AI, combine clips, and more. User-friendly tools for all your video projects.">
+  <link rel="canonical" href="[YOUR_APP_URL_HERE]"> <!-- Replace with your actual app URL -->
+
+  <!-- Open Graph Meta Tags (for social sharing) -->
+  <meta property="og:title" content="VideYO - AI Video Editor & Creator">
+  <meta property="og:description" content="VideYO is an AI-powered video editing and creation suite. Easily swap video backgrounds, generate new video content with AI, combine clips, and more. User-friendly tools for all your video projects.">
+  <meta property="og:image" content="/images/videyo.png"> <!-- Make sure videyo.png is in your public/images/ directory -->
+  <meta property="og:url" content="[YOUR_APP_URL_HERE]"> <!-- Replace with your actual app URL -->
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="VideYO - AI Video Editor & Creator">
+  <meta name="twitter:description" content="VideYO is an AI-powered video editing and creation suite. Easily swap video backgrounds, generate new video content with AI, combine clips, and more. User-friendly tools for all your video projects.">
+  <meta name="twitter:image" content="/images/videyo.png"> <!-- Make sure videyo.png is in your public/images/ directory -->
+
+  <!-- Favicon (optional, create a favicon.ico and place it in public/images/) -->
+  <link rel="icon" href="/images/favicon.ico">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    /* For better visual feedback on sliders */
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      background: #4F46E5; /* indigo-600 */
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    input[type="range"]::-moz-range-thumb {
+      width: 20px;
+      height: 20px;
+      background: #4F46E5; /* indigo-600 */
+      cursor: pointer;
+      border-radius: 50%;
+      border: none;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.7.0"
+  }
+}
+</script>
+</head>
+<body class="bg-gray-900 text-gray-100">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx" defer></script>
+</body>
+</html>

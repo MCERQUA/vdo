@@ -1,0 +1,6 @@
+{
+  "name": "VideYO",
+  "description": "VideYO: An AI-powered video editing and creation suite. Features include video background swapping, AI video generation, video clip combination, and chroma key color suggestions using Gemini. Designed for intuitive video manipulation and content creation.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
